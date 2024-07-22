@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFT от звезд</title>
+
+  <link rel="preload" href="fonts/Rubikmedium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Rubikmedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/IstokWeb-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/IstokWeb-Bold.woff" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="header container">
+    <a class="header-up__logo" href="index.html">
+      <img class="header-up__logo-img" src="img/Logo.svg" alt="Логотип">
+    </a> 
+    <button class="header-burger" aria-label="Открыть меню">
+      <svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line y1="1" x2="30" y2="1" stroke="black" stroke-width="2"/>
+        <line y1="7" x2="30" y2="7" stroke="black" stroke-width="2"/>
+        <line y1="13" x2="30" y2="13" stroke="black" stroke-width="2"/>
+      </svg>
+    </button>
+  </header>
+  <main class="main__bg container">
+    <section class="section-card">
+      <div class="section-card__container">
+        <img class="section-card__img" src="img/foto1.jpg" alt="Фото звезды">
+        <div class="section-card__content">
+          <span class="section-card__name">Ивлеева Анастасия</span>
+          <span class="section-card__done">проверено</span>
+          <p class="section-card__descr">История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде. История о звезде.</p>
+          <span class="section-card__count section-card__descr">
+            <span class="section-card__count-txt">Всего коллекций:</span>
+            <span class="section-card__under-txt">10</span>
+          </span>
+          <span class="section-card__price section-card__descr">
+            <span class="section-card__price-txt">Cтоимость:</span>
+            <span class="section-card__price-txt">от 
+              <span class="section-card__under-txt">500&nbsp;₽&nbsp;</span> до 
+              <span class="section-card__under-txt">1000000&nbsp;₽</span>
+            </span>
+          </span>
+          <span class="section-card__under-txt">Топовые коллекционеры</span>
+        </div>
+      </div>
+    </section>
+    <section class="section-table">
+      <div class="section-table__container ">
+        <table class="section-table__table">
+          <thead>
+            <tr>
+              <td>Рейтинг</td>
+              <td>ID/nickname</td>
+              <td>Имя</td>
+              <td>Сумма баллов</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="section-table__td1">#1</td>
+              <td>
+                <img class="section-table__foto" src="img/user1.png" alt="">
+                <span class="section-table__nick">@zwezda123...</span>
+              </td>
+              <td class="section-table__name">Варветкина Ангелина</td>
+              <td class="section-table__point">845</td>
+              <td class="section-table__td-btn">
+                <a class="section-table__link" href="#">Подробнее</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="section-table__td1">#2</td>
+              <td class="section-table__hidden">Пользователь скрыт</td>
+              <td class="section-table__hidden">Пользователь скрыт</td>
+              <td class="section-table__point">800</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="section-table__td1">#3</td>
+              <td>
+                <img class="section-table__foto" src="img/user2.png" alt="">
+                <span class="section-table__nick">1234923452...</span>
+              </td>
+              <td class="section-table__name">Пучкова Анастасия</td>
+              <td class="section-table__point">787</td>
+              <td class="section-table__td-btn">
+                <a class="section-table__link" href="#">Подробнее</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="section-table__td1">#4</td>
+              <td class="section-table__hidden">Пользователь скрыт</td>
+              <td class="section-table__hidden">Пользователь скрыт</td>
+              <td class="section-table__point">781</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="section-table__td1">#5</td>
+              <td>
+                <img class="section-table__foto" src="img/user3.png" alt="">
+                <span class="section-table__nick">124к948</span>
+              </td>
+              <td class="section-table__name">Мацуев Илья</td>
+              <td class="section-table__point">743</td>
+              <td class="section-table__td-btn">
+                <a class="section-table__link" href="#">Подробнее</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="section-table__pagination">
+          <a class="section-table__pagination-arr" href="#">«</a>
+          <a class="section-table__pagination-number section-table__pagination-active" href="#">1</a>
+          <a class="section-table__pagination-number" href="#">2</a>
+          <a class="section-table__pagination-number" href="#">3</a>
+          <a class="section-table__pagination-number" href="#">4</a>
+          <a class="section-table__pagination-number" href="#">5</a>
+          <a class="section-table__pagination-arr" href="#">»</a>
+        </div>
+      </div>
+    </section>
+    <section class="section-content">
+      <div class="section-content__bg">
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row section-content__row-2 row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__row row">
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+          <div class="section-content__card col">
+            <img class="section-content__foto" src="img/card-foto.png" alt="Фото">
+            <span class="section-content__title">Без слов</span>
+            <div class="section-content__info">
+              <img class="section-content__foto-sm" src="img/card-foto-sm.jpg" alt="">
+              <div class="section-content__wrap">
+                <span class="section-content__name">Настя Ивлеева Вячеславовна</span>
+                <span class="section-content__done">проверено</span>
+              </div>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Редкость:</span>
+              <span class="section-content__status">уникальная</span>
+            </div>
+            <div class="section-content__wrap-sb">
+              <span class="section-content__txt">Цена:</span>
+              <span class="section-content__price">от 500 ₽</span>
+            </div>
+            <button class="section-content__btn">Купить</button>
+          </div>
+        </div>
+        <div class="section-content__pagination">
+          <a class="section-content__pagination-arr" href="#">«</a>
+          <a class="section-content__pagination-number section-content__pagination-active" href="#">1</a>
+          <a class="section-content__pagination-number" href="#">2</a>
+          <a class="section-content__pagination-number" href="#">3</a>
+          <a class="section-content__pagination-number" href="#">4</a>
+          <a class="section-content__pagination-number" href="#">5</a>
+          <a class="section-content__pagination-arr" href="#">»</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <nav>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Что такое NFT</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Создайте NFT с нами</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">О нас</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Отправить запрос</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Условия использования</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+      </ul>
+    </nav>
+    <a href="index.html"><img src="img/footer-logo.svg" alt=""></a>
+  </footer>
+  
+</body>
+</html>
